@@ -59,6 +59,8 @@
     <Folder Include="Schema" />
     <Folder Include="Schema\Tables" />
     <Folder Include="Schema\Security" />
+    <Folder Include="Schema\Programmability" />
+    <Folder Include="Schema\Programmability\Stored Procedures" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="Schema\Security\dbo.sql" />
@@ -67,5 +69,6 @@
     <Build Include="Schema\Tables\Products.sql" />
     <Build Include="Schema\Tables\Orders.sql" />
     <Build Include="Schema\Tables\OrderDetails.sql" />
+    <Build Include="Schema\Programmability\Stored Procedures\usp_InsertOrder.sql" />
   </ItemGroup>
 </Project>
