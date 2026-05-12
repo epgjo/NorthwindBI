@@ -1,0 +1,16 @@
+# Visual Studio temporales
+.vs/
+[Bb]in/
+[Oo]bj/
+*.user
+*.suo
+*.userosscache
+*.sln.doccache
+
+# SQL Server proyectos
+*.dbmdl
+*.jfm
+
+# Archivos de sistema
+Thumbs.db
+Desktop.ini
