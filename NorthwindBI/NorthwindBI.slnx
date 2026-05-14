@@ -4,7 +4,7 @@
     <BuildType Name="Development" />
     <BuildType Name="Release" />
   </Configurations>
-  <Project Path="NorthwindDW/NorthwindDW.sqlproj">
+  <Project Path="NorthwindDW/NorthwindDW.sqlproj" Id="e30db448-f866-4db3-8c9d-f96085411cea">
     <BuildType Solution="Development|*" Project="Release" />
     <Build />
     <Deploy />
@@ -13,7 +13,7 @@
     <BuildType Project="Development" />
     <Platform Project="?" />
   </Project>
-  <Project Path="NorthwindOLTP/NorthwindOLTP.sqlproj">
+  <Project Path="NorthwindOLTP/NorthwindOLTP.sqlproj" Id="60a8a594-121a-4e4c-9de3-95d19cc9f95a">
     <BuildType Solution="Development|*" Project="Release" />
     <Build />
     <Deploy />
